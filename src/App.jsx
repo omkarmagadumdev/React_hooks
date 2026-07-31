@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './components/Counter'
+import UseMemoAndCallbackHook from './components/use-memo-and-context-hook'
 import UseEffect from './components/use_effect_hook'
 import UseReducerHook from './components/use_reducer_hook'
 import UseStateHook from './components/use_state_hook'
@@ -13,7 +14,8 @@ function App() {
       {/* <UseStateHook /> */}
       {/* <UseEffect /> */}
       {/* <Counter /> */}
-      <UseReducerHook />
+      {/* <UseReducerHook /> */}
+      <UseMemoAndCallbackHook />
     </div>
   )
 }
